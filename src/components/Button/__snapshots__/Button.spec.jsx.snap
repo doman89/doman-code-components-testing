@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> match snapshot should has disabled and base class when isDisabled props is passed 1`] = `
+<DocumentFragment>
+  <button
+    class="button button--disabled"
+    data-testid="test"
+    disabled=""
+  >
+    Test
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> match snapshot should only class button when there is any additional props passed 1`] = `
+<DocumentFragment>
+  <button
+    class="button"
+    data-testid="test"
+  >
+    Test
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> match snapshot should pass when size=medium variant=solid isLoading=false isDiabled=false 1`] = `
+<DocumentFragment>
+  <button
+    class="button"
+    data-testid="test"
+  >
+    Test
+  </button>
+</DocumentFragment>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> match snapshot should pass when size=medium variant=solid isLoading=false isDiabled=false 1`] = `
+<DocumentFragment>
+  <input
+    class="input"
+    data-testid="test"
+  />
+</DocumentFragment>
+`;
